@@ -1,6 +1,6 @@
 {
   "name": "lol-pbe-status-watcher",
-  "description": "A script that plays Anthem of Europe when League of Legends PBE server status goes from OFFLINE to ONLINE",
+  "description": "A script that plays Ode to Joy when League of Legends PBE server status goes from OFFLINE to ONLINE",
   "version": "1.0.0",
   "license": "MIT",
   "author": "Maciej Sawicki",

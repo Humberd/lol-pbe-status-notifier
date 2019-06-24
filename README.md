@@ -13,11 +13,27 @@
   </a>
 </p>
 
-> A script that plays Anthem of Europe when League of Legends PBE server status goes from OFFLINE to ONLINE
+> A script that plays Ode to Joy when League of Legends PBE server status goes from OFFLINE to ONLINE
+
+## Details
+
+The script checks every 15 seconds if the LOL PBE game server status went from OFFLINE to ONLINE.
+If so, then opens [VLC](https://www.videolan.org/vlc/) and plays Ode to Joy for 2 minutes.
+
+## Why?
+
+When a new League of Legends mode called Teamfight Tactics was available in the Public Beta Environment server
+it had a player queue of 500 000, which resulted in a wait time of over 30 hours. 
+Fortunately, every day the server went offline to have a maintenance for 2 hours and thus the queue had been resetted.
+This was a perfect opportunity to instantly join the game without or with a relatively small queue.
+Unfortunately, this had happened after midnight, when I was asleep.
+
+This is why I wrote this script to play Ode to Joy in order to wake me up in the middle of the night.
 
 ## Prerequisites
 
 - node &gt;=12.0.0
+- vlc.exe accessible from a terminal. [tutorial](https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables)
 
 ## Install
 
