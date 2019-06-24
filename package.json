@@ -1,17 +1,33 @@
 {
   "name": "status-watcher",
+  "description": "A script that plays Anthem of Europe when League of Legends PBE server status goes from OFFLINE to ONLINE",
   "version": "1.0.0",
-  "description": "",
+  "license": "MIT",
+  "author": "Maciej Sawicki",
+  "homepage": "https://github.com/Humberd/lol-pbe-status-notifier",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Humberd/lol-pbe-status-notifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Humberd/lol-pbe-status-notifier/issues"
+  },
+  "keywords": [
+    "lol",
+    "league of legends",
+    "status watcher",
+    "pbe"
+  ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@types/node-fetch": "^2.3.7",
     "node-fetch": "^2.6.0",
     "play-sound": "^1.1.3"
+  },
+  "engines": {
+    "node": ">=12.0.0"
   }
 }
