@@ -17,7 +17,7 @@
 
 ## Details
 
-The script checks every 15 seconds if the LOL PBE game server status went from OFFLINE to ONLINE.
+The script checks every 15 seconds if the LOL PBE game server status goes from OFFLINE to ONLINE.
 If so, then opens [VLC](https://www.videolan.org/vlc/) and plays Ode to Joy for 2 minutes.
 
 ## Why?
