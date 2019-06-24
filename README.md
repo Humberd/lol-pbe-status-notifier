@@ -32,8 +32,8 @@ This is why I wrote this script to play Ode to Joy in order to wake me up in the
 
 ## Prerequisites
 
-- node &gt;=12.0.0
-- vlc.exe accessible from a terminal. [tutorial](https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables)
+- node &gt;=12.0.0 [link](https://nodejs.org/dist/v12.4.0/node-v12.4.0-x64.msi)
+- vlc.exe accessible from a terminal. [tutorial](https://docs.telerik.com/teststudio/features/test-runners/add-path-environment-variables). In a PATH variable select your VLC directory.
 
 ## Install
 
