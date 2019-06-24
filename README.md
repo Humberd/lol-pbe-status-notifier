@@ -33,7 +33,7 @@ This is why I wrote this script to play Ode to Joy in order to wake me up in the
 ## Prerequisites
 
 - node &gt;=12.0.0 [link](https://nodejs.org/dist/v12.4.0/node-v12.4.0-x64.msi)
-- vlc.exe
+- vlc.exe or other player of your choice.
 
 ## Install
 
