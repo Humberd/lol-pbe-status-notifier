@@ -18,7 +18,9 @@ function setStatus(newStatus) {
 
 function playSound() {
   const playerInstance = player.play('Anthem of Europe.mp3', (err) => {
-    // console.log(err);
+    if (err) {
+      console.error(err)
+    }
   });
 
   setTimeout(() => {
